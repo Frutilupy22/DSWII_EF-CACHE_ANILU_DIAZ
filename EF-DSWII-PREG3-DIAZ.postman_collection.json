@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "f66a63ea-e3fc-4588-b00c-2dfece3e2605",
+		"name": "EF-DSWII-PREG3-DIAZ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38341225"
+	},
+	"item": [
+		{
+			"name": "EventosXAnio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/eventos/2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"eventos",
+						"2024"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProveedorXServicio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/proveedores/Catering",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"proveedores",
+						"Catering"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClienteXid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/clientes/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"clientes",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
